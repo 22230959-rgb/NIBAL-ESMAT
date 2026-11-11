@@ -1,0 +1,23 @@
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #080808;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: #c5c5c5;
+  color: #080808;
+}
